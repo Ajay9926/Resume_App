@@ -1,0 +1,112 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #e0e0e0;
+  border-radius: 10px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.header h1 {
+  color: black;
+}
+
+.resume {
+  padding: 20px;
+  background-color: #1e1e1e;
+}
+
+.personalInfo {
+  text-align: center;
+  padding: 20px;
+  background-color: #2b2b2b;
+  margin-bottom: 20px;
+}
+
+.personalInfo h1 {
+  color: #ffbb0c;
+  margin: 5px 0;
+}
+
+.contactInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #2b2b2b;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #e0e0e0;
+}
+
+.icon {
+  color: #ffbb00;
+  margin-right: 10px;
+}
+
+.link {
+  color: #e0e0e0;
+  text-decoration: none;
+}
+
+.sections {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+  background-color: #2b2b2b;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  color: #ffbb00;
+  margin-bottom: 10px;
+}
+
+.detail h4 {
+  color: #e0e0e0;
+  margin: 5px 0;
+}
+
+.detail p {
+  color: #b0b0b0;
+  margin: 5px 0;
+}
+
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px 0px 10px 0px;
+  background-color: #2b2b2b;
+}
+
+.contactDetails {
+  flex: 1;
+  margin-left: 30px;
+}
+
+.contactDetail {
+  flex: 1;
+  margin-left: -20px;
+}
+
+.contactLink {
+  display: block;
+  color: #ffbb0c;
+  text-decoration: none;
+  margin-bottom: 10px;
+}

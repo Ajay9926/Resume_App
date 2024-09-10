@@ -1,0 +1,145 @@
+.container {
+  margin: 50px auto;
+  max-width: 1000px;
+  padding: 0px;
+}
+
+.header {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 25px;
+}
+
+.resumeContent {
+  background-color: #000;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  padding: 20px;
+  color: #fff;
+}
+
+.personalInfo {
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #fff;
+}
+
+.personalInfo h1 {
+  color: #fff;
+}
+
+.personalInfo h4 {
+  color: #6A9C89;
+}
+
+.personalInfo p {
+  color: #ddd;
+  line-height: 1.5;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #fff;
+}
+
+.contactDetails {
+  flex: 1;
+  margin-left: 30px;
+}
+
+.contactDetail {
+  flex: 1;
+  margin-left: -20px;
+}
+
+.contactLink {
+  display: block;
+  color: #6A9C89;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.final_container {
+  display: flex;
+  background-color: #000;
+  padding: 0px 30px 20px 30px;
+  color: #fff;
+}
+
+.education_container {
+  width: 50%;
+}
+
+.education_container h2 {
+  color: #6A9C89;
+}
+
+.education_container_child h4 {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.education_container_child h5,
+.education_container_child h6 {
+  margin-top: -7px;
+  color: #fff;
+}
+
+.experience_container {
+  color: #fff;
+  margin-top: 40px;
+}
+
+.experience_container_child h4 {
+  font-weight: bold;
+}
+
+.experience_container_child h5,
+.experience_container_child h6 {
+  margin-top: -7px;
+  color: #fff;
+}
+
+.project_container {
+  width: 50%;
+}
+
+.project_container h2 {
+  color: #6A9C89;
+}
+
+.project_container_child h4 {
+  font-weight: bold;
+}
+
+.project_container_child h5 {
+  margin-top: -7px;
+  color: #fff;
+}
+
+.declartion {
+  color: #6A9C89;
+  margin-top: 40px;
+}
+
+.declartion_child h6 {
+  margin-top: 10px;
+  color: white;
+}
+
+.declartion_child_name {
+  color: #fff;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.declartion_child_city {
+  margin-top: -18px;
+  color: #fff;
+}
+
+.new_margin {
+  margin-top: 30px;
+}

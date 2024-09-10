@@ -1,0 +1,149 @@
+.template_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 0px;
+  width: 100%;
+}
+
+.template1 {
+  background-image: url("/assets/resume.jpg");
+}
+
+.template2 {
+  background-image: url("/assets/resume\ \(1\).jpg");
+}
+
+.template3 {
+  background-image: url("/assets/resume\ \(2\).jpg");
+}
+
+.template4 {
+  background-image: url("/assets/resume\ \(3\).jpg");
+}
+
+.template5 {
+  background-image: url("/assets/resume\ \(4\).jpg");
+}
+
+.template6 {
+  background-image: url("/assets/resume\ \(5\).jpg");
+}
+
+.template7 {
+  background-image: url("/assets/resume\ \(6\).jpg");
+}
+
+.template8 {
+  background-image: url("/assets/resume\ \(7\).jpg");
+}
+
+.template1,
+.template2,
+.template3,
+.template4,
+.template5,
+.template6,
+.template7,
+.template8 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 23%;
+  height: 350px;
+  background-position: top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+button {
+  padding: 9px 30px;
+  color: aliceblue;
+  background-color: black;
+  border: 2px solid white;
+  font-size: 15px;
+
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+  .template_container {
+    gap: 40px;
+    padding: 30px 10px;
+  }
+
+  .template {
+
+    height: 150px;
+
+  }
+
+}
+
+@media (max-width: 768px) {
+  .template_container {
+    gap: 30px;
+    padding: 20px 10px;
+  }
+
+  .template {
+
+    height: 100px;
+
+  }
+
+}
+
+@media (min-width: 427px) and (max-width: 500px) {
+  .template_container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 10px;
+  }
+
+  .template {
+
+    height: 220px;
+    width: 100%;
+
+  }
+
+
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  .template_container {
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 20px;
+  }
+
+  .template {
+
+    height: 290px;
+    width: 100%;
+
+  }
+
+
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  .template_container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 10px;
+  }
+
+  .template {
+
+    height: 220px;
+    width: 100%;
+
+  }
+
+}

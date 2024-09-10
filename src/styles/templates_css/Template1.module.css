@@ -1,0 +1,153 @@
+.main_container {
+  margin: 50px 250px 50px 250px;
+}
+
+.main_container_child_name {
+  text-align: center;
+}
+
+.main_container_child_child {
+  border: 2px solid black;
+  margin-top: 30px;
+  background-color: #161A21;
+}
+
+.personal_info {
+  padding: 30px 30px 10px 30px;
+}
+
+.personal_info h1 {
+  color: white;
+}
+
+.personal_info h5 {
+  color: white;
+}
+
+.personal_info p {
+  margin-top: -5px;
+  color: white;
+}
+
+.contact_container {
+  display: flex;
+  font-size: 17px;
+  background-color: #222a33;
+  padding: 10px 30px 35px 30px;
+}
+
+.contact_container_child1 {
+  margin-left: 20px;
+}
+
+.contact_container_child2 {
+  margin-left: 70px;
+}
+
+.contact_link_1 {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.contact_link_2 {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  position: relative;
+  top: 10px;
+}
+
+.contact_link_3 {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  position: relative;
+  top: 20px;
+}
+
+.contact_icon {
+  size: 20px;
+  margin-right: 10px;
+}
+
+.final_container {
+  display: flex;
+  background-color: white;
+  padding: 30px 60px 20px 60px;
+}
+
+.education_container {
+  width: 50%;
+}
+
+.education_container h2 {
+  color: #449399;
+}
+
+.education_container_child h4 {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.education_container_child h5,
+h6 {
+  margin-top: -7px;
+  color: black;
+}
+
+.experience_container {
+  color: black;
+  margin-top: 40px;
+}
+
+.experience_container_child h4 {
+  font-weight: bold;
+}
+
+.experience_container_child h5,
+.experience_container_childh6 {
+  margin-top: -7px;
+  color: black;
+}
+
+.project_container {
+  width: 50%;
+}
+
+.project_container h2 {
+  color: #449399;
+}
+
+.project_container_child h4 {
+  font-weight: bold;
+}
+
+.project_container_child h5 {
+  margin-top: -7px;
+  color: black;
+}
+
+.declartion {
+  color: #449399;
+  margin-top: 40px
+}
+
+.declartion_child h6 {
+  margin-top: 10px;
+}
+
+.declartion_child_name {
+  color: black;
+  margin-top: 20px;
+  font-weight: bold
+}
+
+.declartion_child_city {
+  margin-top: -18px;
+  color: black;
+}
+
+.new_margin {
+  margin-top: 30px;
+}
